@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ad7b442221.js"></script>
+    <!-- Optional CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SoundCloud</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <!-- Header and Navigator -->
+    <section id="header">
+      <!-- Navigator -->
+      <nav>
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <!-- Left Nav -->
+          <div class="logo">
+            <img src="img/logo.png" alt="Soundcloud logo" />
+          </div>
+
+          <!-- Right Nav -->
+          <div class="right-nav">
+            <ul class="d-flex justify-content-between align-items-center">
+              <li>
+                <button class="btn btn-sm btn-white">
+                  Sign In
+                </button>
+              </li>
+              <li>
+                <button class="btn btn-sm btn-orange">
+                  Create Account
+                </button>
+              </li>
+              <li>
+                <a href="#">
+                  For Creators
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <header class="text-center">
+        <h1>Connect on SoundCloud</h1>
+        <p>
+          Discover, stream, and share a constantly expanding mix of music from
+          emerging and major artists around the world.
+        </p>
+        <button class="btn btn-lg btn-orange">
+          Sign up for free
+        </button>
+      </header>
+    </section>
+
+    <section id="promos" class="section-padding">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <!-- Search bar -->
+          <div class="search-bar col-lg-8">
+            <input
+              id="search"
+              class="form-control"
+              placeholder="Search for artist, singer, album, song, tracks,..."
+            />
+          </div>
+
+            <!-- Upload -->
+            <div class="col-lg-4">
+              <span class="mr-4">or</span>
+              <button class="btn btn-lg btn-orange">
+                Upload your own
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending -->
+    <section id="trending" class="section-padding">
+      <div class="container-fluid">
+        <div class="row">
+          <h2 class="text-black m-auto">Hear what’s trending for free in the SoundCloud community</h2>
+        </div>
+
+        <!-- Trending Row 1 -->
+        <div class="row section-padding d-flex justify-content-around align-items-center">
+          <!-- Trending-Item #1 -->
+          <div class="col-lg-2 trending-item">
+              <div class="play-button">
+                  <img src="img/soundcloud-play-button.png" alt="">
+              </div>
+              <div class="pause-button none">
+                  <img src="img/soundcloud-pause-button.png" alt="">
+              </div>
+
+              <div class="tracks-util">
+                <!-- Util List -->
+                <ul class="util-list d-flex">
+                  <li>
+                      <i class="fas fa-heart"></i>
+                  </li>
+                  <li>
+                      <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Sub-Util List -->
+              <div class="sub-util">
+              <ul class="sub-util-list">
+                  <li>
+                      <i class="fas fa-retweet"></i> Repost
+                  </li>
+                  <li>
+                      <i class="fas fa-share-square"></i> Share
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Next up
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Playlist
+                  </li>
+                  <li>
+                      <i class="fas fa-podcast"></i> Station
+                  </li>
+                </ul>
+              </div>
+          </div>
+
+          <!-- Trending-Item #2 -->
+          <div class="col-lg-2 trending-item">
+              <div class="play-button">
+                  <img src="img/soundcloud-play-button.png" alt="">
+              </div>
+              <div class="pause-button none">
+                  <img src="img/soundcloud-pause-button.png" alt="">
+              </div>
+
+              <div class="tracks-util">
+                <!-- Util List -->
+                <ul class="util-list d-flex">
+                  <li>
+                      <i class="fas fa-heart"></i>
+                  </li>
+                  <li>
+                      <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Sub-Util List -->
+              <div class="sub-util">
+              <ul class="sub-util-list">
+                  <li>
+                      <i class="fas fa-retweet"></i> Repost
+                  </li>
+                  <li>
+                      <i class="fas fa-share-square"></i> Share
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Next up
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Playlist
+                  </li>
+                  <li>
+                      <i class="fas fa-podcast"></i> Station
+                  </li>
+                </ul>
+              </div>
+          </div>
+
+          <!-- Trending-Item #3 -->
+          <div class="col-lg-2 trending-item">
+              <div class="play-button">
+                  <img src="img/soundcloud-play-button.png" alt="">
+              </div>
+              <div class="pause-button none">
+                  <img src="img/soundcloud-pause-button.png" alt="">
+              </div>
+
+              <div class="tracks-util">
+                <!-- Util List -->
+                <ul class="util-list d-flex">
+                  <li>
+                      <i class="fas fa-heart"></i>
+                  </li>
+                  <li>
+                      <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Sub-Util List -->
+              <div class="sub-util">
+              <ul class="sub-util-list">
+                  <li>
+                      <i class="fas fa-retweet"></i> Repost
+                  </li>
+                  <li>
+                      <i class="fas fa-share-square"></i> Share
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Next up
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Playlist
+                  </li>
+                  <li>
+                      <i class="fas fa-podcast"></i> Station
+                  </li>
+                </ul>
+              </div>
+          </div>
+
+          <!-- Trending-Item #4 -->
+          <div class="col-lg-2 trending-item">
+              <div class="play-button">
+                  <img src="img/soundcloud-play-button.png" alt="">
+              </div>
+              <div class="pause-button none">
+                  <img src="img/soundcloud-pause-button.png" alt="">
+              </div>
+
+              <div class="tracks-util">
+                <!-- Util List -->
+                <ul class="util-list d-flex">
+                  <li>
+                      <i class="fas fa-heart"></i>
+                  </li>
+                  <li>
+                      <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Sub-Util List -->
+              <div class="sub-util">
+              <ul class="sub-util-list">
+                  <li>
+                      <i class="fas fa-retweet"></i> Repost
+                  </li>
+                  <li>
+                      <i class="fas fa-share-square"></i> Share
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Next up
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Playlist
+                  </li>
+                  <li>
+                      <i class="fas fa-podcast"></i> Station
+                  </li>
+                </ul>
+              </div>
+          </div>
+
+          <!-- Trending-Item #5 -->
+          <div class="col-lg-2 trending-item">
+              <div class="play-button">
+                  <img src="img/soundcloud-play-button.png" alt="">
+              </div>
+              <div class="pause-button none">
+                  <img src="img/soundcloud-pause-button.png" alt="">
+              </div>
+
+              <div class="tracks-util">
+                <!-- Util List -->
+                <ul class="util-list d-flex">
+                  <li>
+                      <i class="fas fa-heart"></i>
+                  </li>
+                  <li>
+                      <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Sub-Util List -->
+              <div class="sub-util">
+              <ul class="sub-util-list">
+                  <li>
+                      <i class="fas fa-retweet"></i> Repost
+                  </li>
+                  <li>
+                      <i class="fas fa-share-square"></i> Share
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Next up
+                  </li>
+                  <li>
+                      <i class="fas fa-list"></i> Add to Playlist
+                  </li>
+                  <li>
+                      <i class="fas fa-podcast"></i> Station
+                  </li>
+                </ul>
+              </div>
+          </div>
+
+        </div>
+
+        <!-- Trending Row 2 -->
+        <div class="row section-padding d-flex justify-content-around align-items-center">
+            <!-- Trending-Item #1 -->
+            <div class="col-lg-2 trending-item">
+                <div class="play-button">
+                    <img src="img/soundcloud-play-button.png" alt="">
+                </div>
+                <div class="pause-button none">
+                    <img src="img/soundcloud-pause-button.png" alt="">
+                </div>
+  
+                <div class="tracks-util">
+                  <!-- Util List -->
+                  <ul class="util-list d-flex">
+                    <li>
+                        <i class="fas fa-heart"></i>
+                    </li>
+                    <li>
+                        <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <!-- Sub-Util List -->
+                <div class="sub-util">
+                <ul class="sub-util-list">
+                    <li>
+                        <i class="fas fa-retweet"></i> Repost
+                    </li>
+                    <li>
+                        <i class="fas fa-share-square"></i> Share
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Next up
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Playlist
+                    </li>
+                    <li>
+                        <i class="fas fa-podcast"></i> Station
+                    </li>
+                  </ul>
+                </div>
+            </div>
+  
+            <!-- Trending-Item #2 -->
+            <div class="col-lg-2 trending-item">
+                <div class="play-button">
+                    <img src="img/soundcloud-play-button.png" alt="">
+                </div>
+                <div class="pause-button none">
+                    <img src="img/soundcloud-pause-button.png" alt="">
+                </div>
+  
+                <div class="tracks-util">
+                  <!-- Util List -->
+                  <ul class="util-list d-flex">
+                    <li>
+                        <i class="fas fa-heart"></i>
+                    </li>
+                    <li>
+                        <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <!-- Sub-Util List -->
+                <div class="sub-util">
+                <ul class="sub-util-list">
+                    <li>
+                        <i class="fas fa-retweet"></i> Repost
+                    </li>
+                    <li>
+                        <i class="fas fa-share-square"></i> Share
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Next up
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Playlist
+                    </li>
+                    <li>
+                        <i class="fas fa-podcast"></i> Station
+                    </li>
+                  </ul>
+                </div>
+            </div>
+  
+            <!-- Trending-Item #3 -->
+            <div class="col-lg-2 trending-item">
+                <div class="play-button">
+                    <img src="img/soundcloud-play-button.png" alt="">
+                </div>
+                <div class="pause-button none">
+                    <img src="img/soundcloud-pause-button.png" alt="">
+                </div>
+  
+                <div class="tracks-util">
+                  <!-- Util List -->
+                  <ul class="util-list d-flex">
+                    <li>
+                        <i class="fas fa-heart"></i>
+                    </li>
+                    <li>
+                        <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <!-- Sub-Util List -->
+                <div class="sub-util">
+                <ul class="sub-util-list">
+                    <li>
+                        <i class="fas fa-retweet"></i> Repost
+                    </li>
+                    <li>
+                        <i class="fas fa-share-square"></i> Share
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Next up
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Playlist
+                    </li>
+                    <li>
+                        <i class="fas fa-podcast"></i> Station
+                    </li>
+                  </ul>
+                </div>
+            </div>
+  
+            <!-- Trending-Item #4 -->
+            <div class="col-lg-2 trending-item">
+                <div class="play-button">
+                    <img src="img/soundcloud-play-button.png" alt="">
+                </div>
+                <div class="pause-button none">
+                    <img src="img/soundcloud-pause-button.png" alt="">
+                </div>
+  
+                <div class="tracks-util">
+                  <!-- Util List -->
+                  <ul class="util-list d-flex">
+                    <li>
+                        <i class="fas fa-heart"></i>
+                    </li>
+                    <li>
+                        <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <!-- Sub-Util List -->
+                <div class="sub-util">
+                <ul class="sub-util-list">
+                    <li>
+                        <i class="fas fa-retweet"></i> Repost
+                    </li>
+                    <li>
+                        <i class="fas fa-share-square"></i> Share
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Next up
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Playlist
+                    </li>
+                    <li>
+                        <i class="fas fa-podcast"></i> Station
+                    </li>
+                  </ul>
+                </div>
+            </div>
+  
+            <!-- Trending-Item #5 -->
+            <div class="col-lg-2 trending-item">
+                <div class="play-button">
+                    <img src="img/soundcloud-play-button.png" alt="">
+                </div>
+                <div class="pause-button none">
+                    <img src="img/soundcloud-pause-button.png" alt="">
+                </div>
+  
+                <div class="tracks-util">
+                  <!-- Util List -->
+                  <ul class="util-list d-flex">
+                    <li>
+                        <i class="fas fa-heart"></i>
+                    </li>
+                    <li>
+                        <i class="sub-util-opener fas fa-ellipsis-h ml-2"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <!-- Sub-Util List -->
+                <div class="sub-util">
+                <ul class="sub-util-list">
+                    <li>
+                        <i class="fas fa-retweet"></i> Repost
+                    </li>
+                    <li>
+                        <i class="fas fa-share-square"></i> Share
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Next up
+                    </li>
+                    <li>
+                        <i class="fas fa-list"></i> Add to Playlist
+                    </li>
+                    <li>
+                        <i class="fas fa-podcast"></i> Station
+                    </li>
+                  </ul>
+                </div>
+            </div>
+  
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 text-center">
+            <button class="btn btn-lg btn-orange">Explore trending playlist</button>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download">
+      <div class="container">
+        <div class="row">
+
+          <!-- Responsive IMG -->
+          <div class="col-lg-8 download-img">
+            <img class="img-fluid" src="https://a-v2.sndcdn.com/assets/images/front/never_stop_listening@2x-ae7903c.jpg" alt="">
+          </div>
+
+          <!-- Download DESC -->
+          <div class="col-lg-4 download-desc">
+            <h2 class="mb-4">Never stop listening</h2>
+            <h4>SoundCloud is available on Web, iOS, Android, Sonos, Chromecast, and Xbox One.</h4>
+            <ul class="d-flex justify-content-between align-items-center">
+              <li>
+                <a class="download-link" href="#">
+                  <img src="img/google-play.png" alt="">
+                </a>
+              </li>
+              <li>
+                  <a class="download-link" href="#">
+                    <img src="img/app-store.png" alt="">
+                  </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Creators -->
+    <section id="creators">
+      <div class="container">
+        <div class="row">
+          <!-- Creators DESC -->
+          <div class="col-lg-6 creators-desc">
+            <h2>Calling out Creators</h2>
+            <h4>Get on SoundCloud to connect with fans, share your sounds, and grow your audience. What are you waiting for?</h4>
+            <a href="#" class="btn btn-lg btn-white">Find out more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Account -->
+    <section id="account" class="section-padding">
+      <div class="container text-center">
+        <h2>Thanks for listening. Now join in.</h2>
+        <h3>Save tracks, follow artists and build playlists. All for free.</h3>
+        <div class="row">
+          <div class="col-lg-12">
+          <a href="#" class="btn btn-lg btn-orange">Create account</a>
+        </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+          <span class="mr-2">Already have an account?</span>
+          <a href="#" style="border: 1px solid #ccc; color: #000;" class="btn btn-lg btn-white">Sign in</a>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <section id="footer" class="section-padding">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-12 footer-desc">
+            <div class="footer-nav">
+            <ul class="footer-list d-flex justify-content-between align-items-center">
+              <li>
+                <a href="#">Popular brands</a>
+              </li>
+              <li>
+                  <a href="#">Popular brands</a>
+                </li>
+                <li>
+                    <a href="#">Popular brands</a>
+                  </li>
+                  <li>
+                      <a href="#">Popular brands</a>
+                    </li>
+                    <li>
+                        <a href="#">Popular brands</a>
+                      </li>
+                      <li>
+                          <a href="#">Popular brands</a>
+                        </li>
+
+            </ul>
+          </div>
+          <button id="language-btn">
+            Language: <span id="selected-language" class="text-black">English (US)</span>
+          </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+    <!-- Language Modal -->
+    <div id="language-modal">
+      <h3>Select a language</h3>
+      <div class="languages">
+        <div class="row">
+          <!-- Language Col 1-->
+          <div class="col-lg-6">
+            <ul>
+              <li class="language-link">
+                English (UK)
+              </li>
+              <li class="language-link">
+                  Spanish
+                </li>
+                <li class="language-link">
+                    French
+                  </li>
+            </ul>
+          </div>
+
+          <!-- Language Col 2-->
+          <div class="col-lg-6">
+              <ul>
+                <li class="language-link">
+                  Italian
+                </li>
+                <li class="language-link">
+                    Vietnamese
+                  </li>
+                  <li class="language-link">
+                      Japanese
+                    </li>
+              </ul>
+            </div>
+
+        </div>
+      </div>
+      <span class="cancel-modal">Cancel</span>
+    </div>
+
+    <!-- Blur -->
+    <div class="blur-bg"></div>
+
+    <!-- Jquery JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Optional JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
